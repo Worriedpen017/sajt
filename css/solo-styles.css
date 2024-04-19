@@ -1,0 +1,44 @@
+.input{
+    margin: 10px;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+#username{
+    grid-row: 2;
+    grid-column:2 / span 2;
+}
+#password{
+    grid-row: 3;
+    grid-column:2 / span 2;
+}
+#loggin-btn{
+    grid-row: 4;
+    grid-column:2;
+}
+#register-btn{
+    grid-row: 4;
+    grid-column:3;
+}
+#chat-input{
+    width: 600px ;
+    height: 25px;
+    grid-area: 2/1;
+}
+#chat-send{
+    height: 35px;
+    grid-area: 2/span 2 /2;
+}
+#chat{
+    grid-area: 1/span 3;
+    background-color: grey;
+    height: 95%;
+    width: 95%;
+    justify-self: center;
+    align-self: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black ;
+}
